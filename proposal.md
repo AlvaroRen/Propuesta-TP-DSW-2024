@@ -2,16 +2,17 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 50249 - Papaolo, Francisco    papaolofrann@gmail.com
+* 49621 - Renzi, Alvaro         alvarorenzivillani@gmail.com
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
 * [backend app](http://hyperlinkToGihubOrGitlab)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+Se desarrollará un sistema de gestión para un estacionamiento de vehículos, en el que los usuarios puedan registrarse, reservar plazas de estacionamiento, saber el precio a pagar según su tipo de vehículo y la duración de la reserva entre otras cosas. También buscamos facilitar la administración del estacionamiento para el encargado de dicha tarea.
+
 
 ### Modelo
 ![imagen del modelo]()
