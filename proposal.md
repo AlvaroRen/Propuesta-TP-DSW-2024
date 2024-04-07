@@ -1,4 +1,4 @@
-# Propuesta TP DSW
+# Propuesta "ESTACIONAMIENTO"
 
 ## Grupo
 ### Integrantes
@@ -14,27 +14,25 @@
 Se desarrollará un sistema de gestión para un estacionamiento de vehículos, en el que los usuarios puedan registrarse, reservar plazas de estacionamiento, saber el precio a pagar según su tipo de vehículo y la duración de la reserva entre otras cosas. También buscamos facilitar la administración del estacionamiento para el encargado de dicha tarea.
 
 
-### Modelo
-![imagen del modelo]()
-
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+### Modelo 
+imagen del DER: https://drive.google.com/file/d/1AzC9rFicjhewpsGT7enKgLsjp75MPD0c/view?usp=drive_link
 
 ## Alcance Funcional 
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Tipo Plaza<br>|
+|CRUD dependiente|1. CRUD Plaza {depende de} CRUD Tipo Plaza<br>|
+|Listado<br>+<br>detalle| 1. Listado de Plazas filtrado por tipo de plaza, muestra nro y tipo de plaza => detalle CRUD Plaza<br>|
+|CUU/Epic|1. Se adaptan 5 plazas para personas discapacitadas|
 
 
-Adicionales para Aprobación
+(Sera planteado en la proxima entrega los temas que se encuentran por debajo de este parentesis)
+
+Adicionales para Aprobación 
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
